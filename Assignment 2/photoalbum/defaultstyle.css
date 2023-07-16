@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+.form_border {
+	border-style: solid;
+	border-width: 1px;
+	width: 600px;
+	padding: 10px;
+	
+}
+
+.form_border .form_border_child{
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px;
+}
+
+#error_msg {
+	color: red;
+	display: none;
+}
+
+#success_msg {
+	color: blue;
+	display: none;
+}
+
+.photo_cell {
+	max-width: 150px; 
+	max-height: 150px;
+}

@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Photo Album</title>
+	</head>
+	<body>
+		<h1>Photo Uploader</h1>
+		<form method="post" action>
+			<fieldset>
+				<p class="row">
+					<label for="photo_tilte">Photo title:</label>
+					<input
+						type="text"
+						name="photo_tilte"
+						id="photo_tilte"
+					/>
+				</p>
+				<p class="row">
+					<label for="photo_file">Select a photo:</label>
+					<input type="file" name="photo_file" id="photo_file" />
+				</p>
+				<p class="row">
+					<label for="description ">Description:</label>
+					<input
+						type="text"
+						name="description"
+						id="description"
+					/>
+				</p>
+                <p class="row">
+					<label for="date">Date:</label>
+					<input
+						type="date"
+						name="date"
+						id="date"
+					/>
+				</p>
+                <p class="row">
+					<label for="photo_keyword">Keywords (comma-delimited, eg. keyword1, keyword2,...):</label>
+					<input
+						type="text"
+						name="photo_keyword"
+						id="photo_keyword"
+					/>
+				</p>
+                <p class="row">
+                    <input type="submit" value="Upload" />
+                </p>
+			</fieldset>
+		</form>
+		<p><a href="photolookup.php">Photo Lookup</a></p>
+	</body>
+</html>
